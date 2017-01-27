@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0262690A1E3B5B4B00CF46EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026269091E3B5B4B00CF46EE /* AppDelegate.swift */; };
+		0262690C1E3B5B4B00CF46EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262690B1E3B5B4B00CF46EE /* ViewController.swift */; };
+		0262690F1E3B5B4B00CF46EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0262690D1E3B5B4B00CF46EE /* Main.storyboard */; };
+		026269111E3B5B4B00CF46EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026269101E3B5B4B00CF46EE /* Assets.xcassets */; };
+		026269141E3B5B4B00CF46EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026269121E3B5B4B00CF46EE /* LaunchScreen.storyboard */; };
+		0262691F1E3B5B4B00CF46EE /* TechpodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262691E1E3B5B4B00CF46EE /* TechpodTests.swift */; };
+		0262692A1E3B5B4B00CF46EE /* TechpodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026269291E3B5B4B00CF46EE /* TechpodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0262691B1E3B5B4B00CF46EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026268FE1E3B5B4B00CF46EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026269051E3B5B4B00CF46EE;
+			remoteInfo = Techpod;
+		};
+		026269261E3B5B4B00CF46EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026268FE1E3B5B4B00CF46EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026269051E3B5B4B00CF46EE;
+			remoteInfo = Techpod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026269061E3B5B4B00CF46EE /* Techpod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techpod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		026269091E3B5B4B00CF46EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0262690B1E3B5B4B00CF46EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0262690E1E3B5B4B00CF46EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		026269101E3B5B4B00CF46EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		026269131E3B5B4B00CF46EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		026269151E3B5B4B00CF46EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0262691A1E3B5B4B00CF46EE /* TechpodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechpodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0262691E1E3B5B4B00CF46EE /* TechpodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechpodTests.swift; sourceTree = "<group>"; };
+		026269201E3B5B4B00CF46EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026269251E3B5B4B00CF46EE /* TechpodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechpodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		026269291E3B5B4B00CF46EE /* TechpodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechpodUITests.swift; sourceTree = "<group>"; };
+		0262692B1E3B5B4B00CF46EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026269031E3B5B4B00CF46EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026269171E3B5B4B00CF46EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026269221E3B5B4B00CF46EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026268FD1E3B5B4B00CF46EE = {
+			isa = PBXGroup;
+			children = (
+				026269081E3B5B4B00CF46EE /* Techpod */,
+				0262691D1E3B5B4B00CF46EE /* TechpodTests */,
+				026269281E3B5B4B00CF46EE /* TechpodUITests */,
+				026269071E3B5B4B00CF46EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		026269071E3B5B4B00CF46EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				026269061E3B5B4B00CF46EE /* Techpod.app */,
+				0262691A1E3B5B4B00CF46EE /* TechpodTests.xctest */,
+				026269251E3B5B4B00CF46EE /* TechpodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		026269081E3B5B4B00CF46EE /* Techpod */ = {
+			isa = PBXGroup;
+			children = (
+				026269091E3B5B4B00CF46EE /* AppDelegate.swift */,
+				0262690B1E3B5B4B00CF46EE /* ViewController.swift */,
+				0262690D1E3B5B4B00CF46EE /* Main.storyboard */,
+				026269101E3B5B4B00CF46EE /* Assets.xcassets */,
+				026269121E3B5B4B00CF46EE /* LaunchScreen.storyboard */,
+				026269151E3B5B4B00CF46EE /* Info.plist */,
+			);
+			path = Techpod;
+			sourceTree = "<group>";
+		};
+		0262691D1E3B5B4B00CF46EE /* TechpodTests */ = {
+			isa = PBXGroup;
+			children = (
+				0262691E1E3B5B4B00CF46EE /* TechpodTests.swift */,
+				026269201E3B5B4B00CF46EE /* Info.plist */,
+			);
+			path = TechpodTests;
+			sourceTree = "<group>";
+		};
+		026269281E3B5B4B00CF46EE /* TechpodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				026269291E3B5B4B00CF46EE /* TechpodUITests.swift */,
+				0262692B1E3B5B4B00CF46EE /* Info.plist */,
+			);
+			path = TechpodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		026269051E3B5B4B00CF46EE /* Techpod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0262692E1E3B5B4B00CF46EE /* Build configuration list for PBXNativeTarget "Techpod" */;
+			buildPhases = (
+				026269021E3B5B4B00CF46EE /* Sources */,
+				026269031E3B5B4B00CF46EE /* Frameworks */,
+				026269041E3B5B4B00CF46EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Techpod;
+			productName = Techpod;
+			productReference = 026269061E3B5B4B00CF46EE /* Techpod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		026269191E3B5B4B00CF46EE /* TechpodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026269311E3B5B4B00CF46EE /* Build configuration list for PBXNativeTarget "TechpodTests" */;
+			buildPhases = (
+				026269161E3B5B4B00CF46EE /* Sources */,
+				026269171E3B5B4B00CF46EE /* Frameworks */,
+				026269181E3B5B4B00CF46EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0262691C1E3B5B4B00CF46EE /* PBXTargetDependency */,
+			);
+			name = TechpodTests;
+			productName = TechpodTests;
+			productReference = 0262691A1E3B5B4B00CF46EE /* TechpodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		026269241E3B5B4B00CF46EE /* TechpodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026269341E3B5B4B00CF46EE /* Build configuration list for PBXNativeTarget "TechpodUITests" */;
+			buildPhases = (
+				026269211E3B5B4B00CF46EE /* Sources */,
+				026269221E3B5B4B00CF46EE /* Frameworks */,
+				026269231E3B5B4B00CF46EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026269271E3B5B4B00CF46EE /* PBXTargetDependency */,
+			);
+			name = TechpodUITests;
+			productName = TechpodUITests;
+			productReference = 026269251E3B5B4B00CF46EE /* TechpodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		026268FE1E3B5B4B00CF46EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "阿部遥人";
+				TargetAttributes = {
+					026269051E3B5B4B00CF46EE = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					026269191E3B5B4B00CF46EE = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 026269051E3B5B4B00CF46EE;
+					};
+					026269241E3B5B4B00CF46EE = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 026269051E3B5B4B00CF46EE;
+					};
+				};
+			};
+			buildConfigurationList = 026269011E3B5B4B00CF46EE /* Build configuration list for PBXProject "Techpod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 026268FD1E3B5B4B00CF46EE;
+			productRefGroup = 026269071E3B5B4B00CF46EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				026269051E3B5B4B00CF46EE /* Techpod */,
+				026269191E3B5B4B00CF46EE /* TechpodTests */,
+				026269241E3B5B4B00CF46EE /* TechpodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		026269041E3B5B4B00CF46EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026269141E3B5B4B00CF46EE /* LaunchScreen.storyboard in Resources */,
+				026269111E3B5B4B00CF46EE /* Assets.xcassets in Resources */,
+				0262690F1E3B5B4B00CF46EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026269181E3B5B4B00CF46EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026269231E3B5B4B00CF46EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		026269021E3B5B4B00CF46EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0262690C1E3B5B4B00CF46EE /* ViewController.swift in Sources */,
+				0262690A1E3B5B4B00CF46EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026269161E3B5B4B00CF46EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0262691F1E3B5B4B00CF46EE /* TechpodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026269211E3B5B4B00CF46EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0262692A1E3B5B4B00CF46EE /* TechpodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0262691C1E3B5B4B00CF46EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026269051E3B5B4B00CF46EE /* Techpod */;
+			targetProxy = 0262691B1E3B5B4B00CF46EE /* PBXContainerItemProxy */;
+		};
+		026269271E3B5B4B00CF46EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026269051E3B5B4B00CF46EE /* Techpod */;
+			targetProxy = 026269261E3B5B4B00CF46EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0262690D1E3B5B4B00CF46EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0262690E1E3B5B4B00CF46EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		026269121E3B5B4B00CF46EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				026269131E3B5B4B00CF46EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0262692C1E3B5B4B00CF46EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0262692D1E3B5B4B00CF46EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0262692F1E3B5B4B00CF46EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Techpod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souri.Techpod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		026269301E3B5B4B00CF46EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Techpod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souri.Techpod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		026269321E3B5B4B00CF46EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TechpodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souri.TechpodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techpod.app/Techpod";
+			};
+			name = Debug;
+		};
+		026269331E3B5B4B00CF46EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TechpodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souri.TechpodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techpod.app/Techpod";
+			};
+			name = Release;
+		};
+		026269351E3B5B4B00CF46EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TechpodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souri.TechpodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Techpod;
+			};
+			name = Debug;
+		};
+		026269361E3B5B4B00CF46EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TechpodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.souri.TechpodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Techpod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026269011E3B5B4B00CF46EE /* Build configuration list for PBXProject "Techpod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0262692C1E3B5B4B00CF46EE /* Debug */,
+				0262692D1E3B5B4B00CF46EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0262692E1E3B5B4B00CF46EE /* Build configuration list for PBXNativeTarget "Techpod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0262692F1E3B5B4B00CF46EE /* Debug */,
+				026269301E3B5B4B00CF46EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		026269311E3B5B4B00CF46EE /* Build configuration list for PBXNativeTarget "TechpodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026269321E3B5B4B00CF46EE /* Debug */,
+				026269331E3B5B4B00CF46EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		026269341E3B5B4B00CF46EE /* Build configuration list for PBXNativeTarget "TechpodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026269351E3B5B4B00CF46EE /* Debug */,
+				026269361E3B5B4B00CF46EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 026268FE1E3B5B4B00CF46EE /* Project object */;
+}
