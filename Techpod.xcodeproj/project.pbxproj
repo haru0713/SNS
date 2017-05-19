@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020AA71B1E697C49001A190D /* 鍵.png in Resources */ = {isa = PBXBuildFile; fileRef = 020AA71A1E697C49001A190D /* 鍵.png */; };
+		020AA7211E698AC4001A190D /* 野獣先輩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020AA7201E698AC4001A190D /* 野獣先輩.jpg */; };
+		023D26391E447E910061FEB8 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023D26381E447E900061FEB8 /* CustomCell.xib */; };
+		023D263B1E447F3D0061FEB8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D263A1E447F3D0061FEB8 /* CustomCell.swift */; };
+		023D26421E44966C0061FEB8 /* コダック.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 023D263C1E44966C0061FEB8 /* コダック.jpg */; };
+		023D26431E44966C0061FEB8 /* ミートボール.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 023D263D1E44966C0061FEB8 /* ミートボール.jpg */; };
+		023D26441E44966C0061FEB8 /* 安村.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 023D263E1E44966C0061FEB8 /* 安村.jpg */; };
+		023D26451E44966C0061FEB8 /* とまと.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 023D263F1E44966C0061FEB8 /* とまと.jpg */; };
+		023D26461E44966C0061FEB8 /* もやし.png in Resources */ = {isa = PBXBuildFile; fileRef = 023D26401E44966C0061FEB8 /* もやし.png */; };
+		023D26491E44A3550061FEB8 /* ProfillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D26481E44A3550061FEB8 /* ProfillViewController.swift */; };
 		0262690A1E3B5B4B00CF46EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026269091E3B5B4B00CF46EE /* AppDelegate.swift */; };
 		0262690C1E3B5B4B00CF46EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262690B1E3B5B4B00CF46EE /* ViewController.swift */; };
 		0262690F1E3B5B4B00CF46EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0262690D1E3B5B4B00CF46EE /* Main.storyboard */; };
@@ -14,6 +24,24 @@
 		026269141E3B5B4B00CF46EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026269121E3B5B4B00CF46EE /* LaunchScreen.storyboard */; };
 		0262691F1E3B5B4B00CF46EE /* TechpodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262691E1E3B5B4B00CF46EE /* TechpodTests.swift */; };
 		0262692A1E3B5B4B00CF46EE /* TechpodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026269291E3B5B4B00CF46EE /* TechpodUITests.swift */; };
+		02A53DA41E4DCDA0006E1EE4 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A53DA31E4DCDA0006E1EE4 /* user.png */; };
+		02A53DA61E4DCDD5006E1EE4 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A53DA51E4DCDD5006E1EE4 /* bubble.png */; };
+		02A53DA81E4DCE47006E1EE4 /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A53DA71E4DCE47006E1EE4 /* world.png */; };
+		02A53DAA1E4DCE51006E1EE4 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A53DA91E4DCE51006E1EE4 /* settings.png */; };
+		02C1DED51E72C25D004CA93D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1DED41E72C25D004CA93D /* FriendsViewController.swift */; };
+		02C1DED71E72C294004CA93D /* FriendsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02C1DED61E72C294004CA93D /* FriendsCell.xib */; };
+		02C1DEDB1E72C494004CA93D /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1DEDA1E72C493004CA93D /* FriendsCell.swift */; };
+		02F630E11E5701BD00E2AAEB /* CreateNewGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F630E01E5701BD00E2AAEB /* CreateNewGroupCell.xib */; };
+		02F630E31E5701EA00E2AAEB /* CreateNewGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F630E21E5701EA00E2AAEB /* CreateNewGroupCell.swift */; };
+		02F630E61E57046600E2AAEB /* TyatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F630E51E57046600E2AAEB /* TyatCell.xib */; };
+		02F630E81E57054800E2AAEB /* TyatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F630E71E57054800E2AAEB /* TyatCell.swift */; };
+		02F630EA1E5708E300E2AAEB /* TyatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F630E91E5708E300E2AAEB /* TyatViewController.swift */; };
+		02F630EC1E60432E00E2AAEB /* MakeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F630EB1E60432E00E2AAEB /* MakeCell.xib */; };
+		02F630F01E6044D400E2AAEB /* MakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F630EF1E6044D400E2AAEB /* MakeViewController.swift */; };
+		02F630F41E6048DE00E2AAEB /* MakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F630F31E6048DE00E2AAEB /* MakeCell.swift */; };
+		02F630F61E6049FB00E2AAEB /* ConfigCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F630F51E6049FB00E2AAEB /* ConfigCell.xib */; };
+		02F630F81E604B3F00E2AAEB /* ConfigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F630F71E604B3F00E2AAEB /* ConfigCell.swift */; };
+		02F630FA1E604D1B00E2AAEB /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F630F91E604D1B00E2AAEB /* ConfigViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +62,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		020AA71A1E697C49001A190D /* 鍵.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鍵.png"; sourceTree = "<group>"; };
+		020AA7201E698AC4001A190D /* 野獣先輩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "野獣先輩.jpg"; sourceTree = "<group>"; };
+		023D26381E447E900061FEB8 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		023D263A1E447F3D0061FEB8 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		023D263C1E44966C0061FEB8 /* コダック.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コダック.jpg"; sourceTree = "<group>"; };
+		023D263D1E44966C0061FEB8 /* ミートボール.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ミートボール.jpg"; sourceTree = "<group>"; };
+		023D263E1E44966C0061FEB8 /* 安村.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "安村.jpg"; sourceTree = "<group>"; };
+		023D263F1E44966C0061FEB8 /* とまと.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "とまと.jpg"; sourceTree = "<group>"; };
+		023D26401E44966C0061FEB8 /* もやし.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "もやし.png"; sourceTree = "<group>"; };
+		023D26481E44A3550061FEB8 /* ProfillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfillViewController.swift; sourceTree = "<group>"; };
 		026269061E3B5B4B00CF46EE /* Techpod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techpod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		026269091E3B5B4B00CF46EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0262690B1E3B5B4B00CF46EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +85,24 @@
 		026269251E3B5B4B00CF46EE /* TechpodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechpodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		026269291E3B5B4B00CF46EE /* TechpodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechpodUITests.swift; sourceTree = "<group>"; };
 		0262692B1E3B5B4B00CF46EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A53DA31E4DCDA0006E1EE4 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		02A53DA51E4DCDD5006E1EE4 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		02A53DA71E4DCE47006E1EE4 /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world.png; sourceTree = "<group>"; };
+		02A53DA91E4DCE51006E1EE4 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		02C1DED41E72C25D004CA93D /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		02C1DED61E72C294004CA93D /* FriendsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsCell.xib; sourceTree = "<group>"; };
+		02C1DEDA1E72C493004CA93D /* FriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
+		02F630E01E5701BD00E2AAEB /* CreateNewGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateNewGroupCell.xib; sourceTree = "<group>"; };
+		02F630E21E5701EA00E2AAEB /* CreateNewGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewGroupCell.swift; sourceTree = "<group>"; };
+		02F630E51E57046600E2AAEB /* TyatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TyatCell.xib; sourceTree = "<group>"; };
+		02F630E71E57054800E2AAEB /* TyatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TyatCell.swift; sourceTree = "<group>"; };
+		02F630E91E5708E300E2AAEB /* TyatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TyatViewController.swift; sourceTree = "<group>"; };
+		02F630EB1E60432E00E2AAEB /* MakeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MakeCell.xib; sourceTree = "<group>"; };
+		02F630EF1E6044D400E2AAEB /* MakeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeViewController.swift; sourceTree = "<group>"; };
+		02F630F31E6048DE00E2AAEB /* MakeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeCell.swift; sourceTree = "<group>"; };
+		02F630F51E6049FB00E2AAEB /* ConfigCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigCell.xib; sourceTree = "<group>"; };
+		02F630F71E604B3F00E2AAEB /* ConfigCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigCell.swift; sourceTree = "<group>"; };
+		02F630F91E604D1B00E2AAEB /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +155,28 @@
 			children = (
 				026269091E3B5B4B00CF46EE /* AppDelegate.swift */,
 				0262690B1E3B5B4B00CF46EE /* ViewController.swift */,
+				02F630E91E5708E300E2AAEB /* TyatViewController.swift */,
+				02F630EF1E6044D400E2AAEB /* MakeViewController.swift */,
+				02F630F91E604D1B00E2AAEB /* ConfigViewController.swift */,
+				02C1DED41E72C25D004CA93D /* FriendsViewController.swift */,
 				0262690D1E3B5B4B00CF46EE /* Main.storyboard */,
 				026269101E3B5B4B00CF46EE /* Assets.xcassets */,
 				026269121E3B5B4B00CF46EE /* LaunchScreen.storyboard */,
 				026269151E3B5B4B00CF46EE /* Info.plist */,
+				023D26381E447E900061FEB8 /* CustomCell.xib */,
+				023D263A1E447F3D0061FEB8 /* CustomCell.swift */,
+				02F630E51E57046600E2AAEB /* TyatCell.xib */,
+				02F630E71E57054800E2AAEB /* TyatCell.swift */,
+				02F630EB1E60432E00E2AAEB /* MakeCell.xib */,
+				02F630F31E6048DE00E2AAEB /* MakeCell.swift */,
+				02F630F51E6049FB00E2AAEB /* ConfigCell.xib */,
+				02F630F71E604B3F00E2AAEB /* ConfigCell.swift */,
+				02C1DED61E72C294004CA93D /* FriendsCell.xib */,
+				02C1DEDA1E72C493004CA93D /* FriendsCell.swift */,
+				02F630E41E5703F800E2AAEB /* 画像たち */,
+				023D26481E44A3550061FEB8 /* ProfillViewController.swift */,
+				02F630E01E5701BD00E2AAEB /* CreateNewGroupCell.xib */,
+				02F630E21E5701EA00E2AAEB /* CreateNewGroupCell.swift */,
 			);
 			path = Techpod;
 			sourceTree = "<group>";
@@ -123,6 +197,24 @@
 				0262692B1E3B5B4B00CF46EE /* Info.plist */,
 			);
 			path = TechpodUITests;
+			sourceTree = "<group>";
+		};
+		02F630E41E5703F800E2AAEB /* 画像たち */ = {
+			isa = PBXGroup;
+			children = (
+				020AA7201E698AC4001A190D /* 野獣先輩.jpg */,
+				020AA71A1E697C49001A190D /* 鍵.png */,
+				023D26401E44966C0061FEB8 /* もやし.png */,
+				02A53DA31E4DCDA0006E1EE4 /* user.png */,
+				023D263F1E44966C0061FEB8 /* とまと.jpg */,
+				023D263E1E44966C0061FEB8 /* 安村.jpg */,
+				023D263D1E44966C0061FEB8 /* ミートボール.jpg */,
+				02A53DA91E4DCE51006E1EE4 /* settings.png */,
+				023D263C1E44966C0061FEB8 /* コダック.jpg */,
+				02A53DA51E4DCDD5006E1EE4 /* bubble.png */,
+				02A53DA71E4DCE47006E1EE4 /* world.png */,
+			);
+			name = "画像たち";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +324,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023D26431E44966C0061FEB8 /* ミートボール.jpg in Resources */,
+				023D26441E44966C0061FEB8 /* 安村.jpg in Resources */,
 				026269141E3B5B4B00CF46EE /* LaunchScreen.storyboard in Resources */,
+				02C1DED71E72C294004CA93D /* FriendsCell.xib in Resources */,
+				02A53DA41E4DCDA0006E1EE4 /* user.png in Resources */,
 				026269111E3B5B4B00CF46EE /* Assets.xcassets in Resources */,
+				02F630EC1E60432E00E2AAEB /* MakeCell.xib in Resources */,
+				02A53DA61E4DCDD5006E1EE4 /* bubble.png in Resources */,
+				023D26421E44966C0061FEB8 /* コダック.jpg in Resources */,
+				02A53DA81E4DCE47006E1EE4 /* world.png in Resources */,
+				02A53DAA1E4DCE51006E1EE4 /* settings.png in Resources */,
+				02F630E11E5701BD00E2AAEB /* CreateNewGroupCell.xib in Resources */,
+				020AA7211E698AC4001A190D /* 野獣先輩.jpg in Resources */,
+				023D26391E447E910061FEB8 /* CustomCell.xib in Resources */,
+				023D26461E44966C0061FEB8 /* もやし.png in Resources */,
 				0262690F1E3B5B4B00CF46EE /* Main.storyboard in Resources */,
+				020AA71B1E697C49001A190D /* 鍵.png in Resources */,
+				023D26451E44966C0061FEB8 /* とまと.jpg in Resources */,
+				02F630F61E6049FB00E2AAEB /* ConfigCell.xib in Resources */,
+				02F630E61E57046600E2AAEB /* TyatCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +368,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F630E31E5701EA00E2AAEB /* CreateNewGroupCell.swift in Sources */,
+				02F630F01E6044D400E2AAEB /* MakeViewController.swift in Sources */,
+				02F630F41E6048DE00E2AAEB /* MakeCell.swift in Sources */,
+				02F630FA1E604D1B00E2AAEB /* ConfigViewController.swift in Sources */,
+				02C1DED51E72C25D004CA93D /* FriendsViewController.swift in Sources */,
 				0262690C1E3B5B4B00CF46EE /* ViewController.swift in Sources */,
+				023D26491E44A3550061FEB8 /* ProfillViewController.swift in Sources */,
+				02F630E81E57054800E2AAEB /* TyatCell.swift in Sources */,
+				02C1DEDB1E72C494004CA93D /* FriendsCell.swift in Sources */,
+				023D263B1E447F3D0061FEB8 /* CustomCell.swift in Sources */,
+				02F630F81E604B3F00E2AAEB /* ConfigCell.swift in Sources */,
 				0262690A1E3B5B4B00CF46EE /* AppDelegate.swift in Sources */,
+				02F630EA1E5708E300E2AAEB /* TyatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +623,7 @@
 				026269301E3B5B4B00CF46EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		026269311E3B5B4B00CF46EE /* Build configuration list for PBXNativeTarget "TechpodTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +632,7 @@
 				026269331E3B5B4B00CF46EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		026269341E3B5B4B00CF46EE /* Build configuration list for PBXNativeTarget "TechpodUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +641,7 @@
 				026269361E3B5B4B00CF46EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
